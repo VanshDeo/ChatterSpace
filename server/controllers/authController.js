@@ -53,6 +53,8 @@ const signupUser = async (req, res) => {
             password
         });
 
+        res.status(201).json({ message: "User Registered Successfully",user })
+
         sendToken(user, res);
 
     }catch(err){

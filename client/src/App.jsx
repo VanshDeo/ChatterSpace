@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import AuthPage from "./pages/AuthPage";
 
 // ✅ Connect socket to backend
-const socket = io("http://localhost:5000"); // change to your backend URL
+const socket = io("http://localhost:3000"); // change to your backend URL
 
 const App = () => {
   // ✅ Added typing indicator state management
